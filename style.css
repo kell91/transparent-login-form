@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family: 'quicksand';
+}
+
+html , body {
+    margin: 0;
+}
+
+
+.full-screen-container {
+
+    background-image: url(./background_image.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+
+.login-container {
+    background-color: hsla(201, 100%, 6%, 0.6);
+    padding: 50px 30px;
+    min-width: 400px;
+    width: 50%;
+    max-width: 600px;
+} 
+.login-title {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+} 
+
+.login-button {
+  /*  align-self: flex-start; */
+}
+
+
+
+
+.input-group label {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin: 7px;
+}
+
+.input-group input {
+    font-size: 1.5em;
+    padding: .1em .25em ;
+    background: hsla(201, 100%, 91%, 0.3);
+    border: 1px solid hsl(201, 100%, 6%);
+    outline: none;
+    border-radius: 5px;
+    font-weight: lighter;
+    color: white;
+}
+
+.input-group input:focus {
+    border: 1px solid  hsl(201, 100%, 50%);   /* this puts a border around the input when you click on the iput */
+
+}
+
+.login-button {
+    padding: 10px 30px;
+  /*  width: 100%; */
+  border-radius: 5px ; 
+    background: rgba(9, 159, 240, 0.11);
+    border: 1px solid  hsl(201, 100%, 50%);
+    outline: none;
+    font-size: 1.5em;
+    color: white;
+    font-weight: lighter;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+
+.login-button:hover {
+    background-color: hsla(201, 100%, 50%, 0.3);
+
+}
+.login-button:focus {
+    background-color: hsla(201, 100%, 50%, 0.5);
+}
